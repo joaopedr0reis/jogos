@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url('fonts/fonts\ 1/Minecraft.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'pokemon';
+    src: url('fonts/fonts\ 2/OmegaRuby-PlEB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'cuphead';
+    src: url('fonts/fonts\ 3/Madness Hyperactive.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Fifa';
+    src: url('fonts/fonts\ 4/fifawelcome1.3.ttf') format('truetype');
+}
+
+body {
+    background-image: url(Imagem-Destacada.jpg);
+    margin: 0;
+    background-color: #c8e9ca;
+}
+
+header {
+    width: 98.82%;
+    background-color: #e4a5a5;
+    padding: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+
+}
+
+#titulao {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#menus {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#a1 {
+    font-family: 'minecraft';
+    text-shadow: 0px 0px #168820;
+    color: #168820;
+}
+
+#a2 {
+    font-family: 'pokemon';
+    text-shadow: 2px 2px 20px #000000;
+    color: #ffd900;
+}
+
+#a3 {
+    font-family: 'cuphead', sans-serif;
+    text-shadow: 0px 0px 30px #daa520, 0px 0px 30px #daa520;
+    color: #f0b92e;
+}
+
+#a4 {
+    font-family: 'Fifa';
+    text-shadow: 0px 0px 30px #978e8e, 0px 0px 30px #978e8e;
+    color: #000000;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.semSublinhado {
+    text-decoration: none;
+}
+
+main {
+    font-family: fifa;
+}
+
+#divfifa {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#img_fifa1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#como_funciona {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 100px;
+    margin: 50px
+}
+
+.como_funciona1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#como_funciona2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #b8b8b8;
+    padding: 10px;
+    width: 98.82%
+}
