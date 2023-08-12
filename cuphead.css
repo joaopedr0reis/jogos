@@ -1,26 +1,25 @@
 @font-face {
     font-family: 'minecraft';
-    src: url('fonts/fonts\ 1/Minecraft.ttf') format('truetype');
+    src: url('Minecraft.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'pokemon';
-    src: url('fonts/fonts\ 2/OmegaRuby-PlEB.ttf') format('truetype');
+    src: url('OmegaRuby-PlEB.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'cuphead';
-    src: url('fonts/fonts\ 3/Madness Hyperactive.otf') format('opentype');
+    src: url('Madness\ Hyperactive.otf') format('opentype');
 }
 
 
 @font-face {
     font-family: 'Fifa';
-    src: url('fonts/fonts\ 4/fifawelcome1.3.ttf') format('truetype');
+    src: url('fifawelcome1.3.ttf') format('truetype');
 }
 
 body {
-    background-image: url(Imagem-Destacada.jpg);
     margin: 0;
     background-color: #c8e9ca;
 }
@@ -62,8 +61,8 @@ nav ul li {
 }
 
 #a3 {
-    font-family: 'cuphead', sans-serif;
-    text-shadow: 0px 0px 30px #daa520, 0px 0px 30px #daa520;
+    font-family: 'cuphead';
+    text-shadow: 0px 0px 30px #daa520 , 0px 0px 30px #daa520;
     color: #f0b92e;
 }
 
@@ -118,6 +117,87 @@ main {
     font-size: 40px;
     display: flex;
     justify-content: center;
+}
+
+
+#quiz {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.panel{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    background-color: #c7dddf;
+    font-size: x-large;
+    text-align: center;
+      
+}
+.resultado{
+    /*margin: 10px;
+    padding: 5px;
+     width:80vw; 
+    height: 10vh; */
+    text-align: center;
+    font-size: 50px;
+      
+}
+.option-container{
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: #9eb1b3;   
+        
+}
+.option{    
+    padding: 10px;
+    width: 15vw;
+    height: 10vh;
+    font-size: larger;
+    background-color: lightskyblue;
+    border-radius: 25%;
+}
+.option:hover{
+    background-color: lightgoldenrodyellow;
+}
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#c7dddf;
+}
+  
+.resposta, .proximo{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: larger;
+}
+
+.resposta{    
+    background-color: #50DBB4;
+}
+
+.proximo{
+    color: white;
+    background-color: #BF3325;
 }
 
 footer {

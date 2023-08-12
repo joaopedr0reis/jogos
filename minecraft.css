@@ -1,26 +1,25 @@
 @font-face {
     font-family: 'minecraft';
-    src: url('fonts/fonts\ 1/Minecraft.ttf') format('truetype');
+    src: url('Minecraft.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'pokemon';
-    src: url('fonts/fonts\ 2/OmegaRuby-PlEB.ttf') format('truetype');
+    src: url('OmegaRuby-PlEB.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'cuphead';
-    src: url('fonts/fonts\ 3/Madness Hyperactive.otf') format('opentype');
+    src: url('Madness\ Hyperactive.otf') format('opentype');
 }
 
 
 @font-face {
     font-family: 'Fifa';
-    src: url('fonts/fonts\ 4/fifawelcome1.3.ttf') format('truetype');
+    src: url('fifawelcome1.3.ttf') format('truetype');
 }
 
 body {
-    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPkh-BxT6oDS6aLUBpAMnOBynvPGbwZmv6pFoRYDAI_XyC6BIlZqQMbQnPt1lZR_0QQug&usqp=CAU); */
     margin: 0;
     background-color: #c8e9ca;
 }
